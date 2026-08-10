@@ -39,7 +39,17 @@ export default defineConfig({
             { text: 'k_core', link: '/resources/k_core' },
             { text: 'k_hud', link: '/resources/k_hud' },
             { text: 'k_clothes', link: '/resources/k_clothes' },
-            { text: 'KR4SH OS', link: '/resources/kr4sh-os' },
+            {
+              text: 'KR4SH OS',
+              link: '/resources/kr4sh-os',
+              collapsed: false,
+              items: [
+                { text: 'SIM i telefon', link: '/resources/kr4sh-os/sim-phone' },
+                { text: 'Aplikacje', link: '/resources/kr4sh-os/apps' },
+                { text: 'Integracje', link: '/resources/kr4sh-os/integrations' },
+                { text: 'Known Issues', link: '/resources/kr4sh-os/troubleshooting' }
+              ]
+            },
             { text: 'k_backfire', link: '/resources/k_backfire' }
           ]
         }
