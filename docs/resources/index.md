@@ -18,8 +18,8 @@ Centralny katalog dokumentacji resource'ów KR4SH. Status **W przygotowaniu** oz
     <div class="kr-meta"><span class="kr-badge">W przygotowaniu</span></div>
   </a>
   <a class="kr-card" href="./kr4sh-os">
-    <h3>KR4SH OS</h3><p>Telefon i aplikacje.</p>
-    <div class="kr-meta"><span class="kr-badge">W przygotowaniu</span></div>
+    <h3>KR4SH OS / k_phone</h3><p>Telefon, SIM, aplikacje, multimedia i integracje.</p>
+    <div class="kr-meta"><span class="kr-badge live">Rozwinięte docs</span><span class="kr-badge">Flagship</span></div>
   </a>
   <a class="kr-card" href="./k_backfire">
     <h3>k_backfire</h3><p>Backfire, konfiguracja i integracje pojazdu.</p>
