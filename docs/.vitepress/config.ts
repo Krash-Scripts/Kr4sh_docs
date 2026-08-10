@@ -82,10 +82,6 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Krash-Scripts' }
     ],
-    editLink: {
-      pattern: 'https://github.com/Krash-Scripts/Kr4sh_docs/edit/main/docs/:path',
-      text: 'Edytuj tę stronę na GitHub'
-    },
     lastUpdated: {
       text: 'Ostatnia aktualizacja',
       formatOptions: {
