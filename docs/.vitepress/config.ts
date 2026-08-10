@@ -13,11 +13,12 @@ export default defineConfig({
   ],
   themeConfig: {
     logo: '/logo.svg',
-    siteTitle: 'KR4SH',
+    siteTitle: 'KR4SH Docs',
     nav: [
       { text: 'Start', link: '/' },
+      { text: 'Getting Started', link: '/getting-started/' },
       { text: 'Skrypty', link: '/resources/' },
-      { text: 'Dla developerów', link: '/developers/' },
+      { text: 'API', link: '/developers/events-exports' },
       { text: 'Pomoc', link: '/support/troubleshooting' }
     ],
     sidebar: {
