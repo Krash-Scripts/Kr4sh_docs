@@ -1,6 +1,6 @@
 ---
 title: KR4SH Backfire
- description: Dokumentacja systemu backfire i tabletu do tuningu pojazdów FiveM.
+description: Dokumentacja systemu backfire i tabletu do tuningu pojazdów FiveM.
 ---
 
 # KR4SH Backfire
