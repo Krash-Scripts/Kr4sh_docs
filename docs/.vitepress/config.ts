@@ -50,7 +50,19 @@ export default defineConfig({
                 { text: 'Known Issues', link: '/resources/kr4sh-os/troubleshooting' }
               ]
             },
-            { text: 'k_backfire', link: '/resources/k_backfire' }
+            {
+              text: 'KR4SH Backfire',
+              link: '/resources/k_backfire',
+              collapsed: false,
+              items: [
+                { text: 'Instalacja', link: '/resources/k_backfire/installation' },
+                { text: 'Obsługa tabletu', link: '/resources/k_backfire/usage' },
+                { text: 'Konfiguracja i API', link: '/resources/k_backfire/configuration' },
+                { text: 'Rozwiązywanie problemów', link: '/resources/k_backfire/troubleshooting' },
+                { text: 'Changelog', link: '/resources/k_backfire/changelog' },
+                { text: 'English guide', link: '/resources/k_backfire/en' }
+              ]
+            }
           ]
         }
       ],
