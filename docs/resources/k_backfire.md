@@ -1,33 +1,49 @@
-# k_backfire
+---
+title: KR4SH Backfire
+ description: Dokumentacja systemu backfire i tabletu do tuningu pojazdów FiveM.
+---
 
-<div class="kr-eyebrow">Resource documentation</div>
+# KR4SH Backfire
 
-System konfiguracji backfire i efektów pojazdu.
+<div class="kr-eyebrow">FREE RESOURCE · ESX LEGACY · v1.8.1</div>
 
-::: info Status
-Struktura dokumentacji jest gotowa. Szczegółowe wartości configu, events i exports zostaną uzupełnione po analizie aktualnego wydania resource'u.
+**Konfigurowalny system backfire z tabletem do tuningu pojazdów.** Gracz może zamontować zestaw w swoim samochodzie, wybrać efekty płomieni, odgłosy strzałów i profil dźwięku silnika, a następnie zapisać ustawienia osobno dla pojazdu.
+
+::: info Darmowy produkt
+Pobranie produktu na Tebex jest bezpłatne. Ceny montażu i modyfikacji widoczne w tablecie to **waluta serwera FiveM**, którą właściciel serwera może zmienić w `config.lua`.
 :::
 
-## Requirements
+## Co oferuje system?
 
-Lista zależności zostanie podana na podstawie manifestu aktualnej wersji.
+| Funkcja | Szczegóły |
+| --- | --- |
+| Tablet NUI | Konfiguracja zestawu, podsumowanie ceny, personalizacja wyglądu urządzenia |
+| Profile strzałów | 3 warianty: Subtle, Street, Race |
+| Kolory płomieni | 6 predefiniowanych kolorów; możliwość dopisania własnych |
+| Wielkość płomieni | 4 warianty: Compact, Street, Track, Afterburner |
+| Dźwięki strzałów | 6 profili z odsłuchem w tablecie |
+| Dźwięki silnika | Przeszukiwalny katalog 100 wpisów; odtwarzanie wymaga zgodnego `Audio_Pack` |
+| Launch control | Mocniejsza seria przy **W + Spacja** na postoju |
+| ON / OFF | Bezpłatny przełącznik z zapisem stanu pojazdu |
+| Zapis | Ustawienia w MySQL według tablicy rejestracyjnej |
 
-## Installation
+Zasięgi synchronizacji i audio, ceny, dostępne klasy pojazdów, konta płatnicze oraz parametry efektów są konfigurowalne. Efekty są kierowane do pobliskich graczy w tym samym routing bucket; nie deklarujemy konkretnego wyniku `resmon` dla wszystkich serwerów.
 
-1. Pobierz właściwe wydanie resource'u.
-2. Zainstaluj wymagane zależności.
-3. Wykonaj migrację bazy danych, jeżeli jest dołączona.
-4. Dodaj resource do kolejności startowej serwera.
-5. Sprawdź konsolę po uruchomieniu.
+## Dokumentacja
 
-## Configuration
+- [Instalacja i aktualizacja](./k_backfire/installation) — trzy zasoby w jednym ZIP, zależności, SQL, przedmiot `ox_inventory` i `server.cfg`.
+- [Obsługa tabletu](./k_backfire/usage) — pierwszy montaż, zmiana ustawień, ON/OFF, launch control.
+- [Konfiguracja](./k_backfire/configuration) — ceny, właściciel pojazdu, płomienie, dźwięki, blokady i API.
+- [Rozwiązywanie problemów](./k_backfire/troubleshooting) — tablet, zakup, płomienie, audio, radio i baza danych.
+- [Changelog](./k_backfire/changelog) — historia najnowszych poprawek i status testów.
+- [English documentation](./k_backfire/en) — English installation and configuration guide.
 
-Konfiguracja zostanie opisana klucz po kluczu wraz z typem wartości, domyślnym zachowaniem i wpływem na wydajność.
+## Zawartość planowanego wydania
 
-## Events & Exports
+Finalna paczka na Tebex jest przygotowywana jako **jedno archiwum** z folderami `k_backfire`, `kr_backfire_fx` oraz `Audio_Pack`. Każdy z nich uruchamia się osobno w `server.cfg`. ESX Legacy i zależności `ox_*` pozostają zależnościami serwera, a nie częścią tego archiwum.
 
-Publiczne API będzie dokumentowane wyłącznie na podstawie kodu aktualnej wersji.
+::: warning Przed publikacją
+Archiwum deweloperskie `k_backfire` w wersji 1.8.1, na podstawie którego opracowano te strony, **nie zawiera** `kr_backfire_fx` ani `Audio_Pack`. Wydawca dołącza je do końcowego ZIP po sprawdzeniu praw do ich redystrybucji. W pliku `install/ox_inventory_item.lua` należy również poprawić przestarzały eksport `kr_backfire.openTablet` na `k_backfire.openTablet`. Pełny test finalnego zestawu wewnątrz FiveM nie został jeszcze potwierdzony.
+:::
 
-## Troubleshooting
-
-Najczęstsze błędy i sposoby diagnozy pojawią się po audycie resource'u.
+[Przejdź do instalacji →](./k_backfire/installation)
