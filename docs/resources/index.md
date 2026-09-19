@@ -22,7 +22,7 @@ Centralny katalog dokumentacji resource'ów KR4SH. Status **W przygotowaniu** oz
     <div class="kr-meta"><span class="kr-badge live">Rozwinięte docs</span><span class="kr-badge">Flagship</span></div>
   </a>
   <a class="kr-card" href="./k_backfire">
-    <h3>k_backfire</h3><p>Backfire, konfiguracja i integracje pojazdu.</p>
-    <div class="kr-meta"><span class="kr-badge">W przygotowaniu</span></div>
+    <h3>KR4SH Backfire</h3><p>Tablet tuningowy, instalacja, kolory płomieni, audio, konfiguracja i wsparcie.</p>
+    <div class="kr-meta"><span class="kr-badge live">Dokumentacja v1.8.1</span><span class="kr-badge">FREE</span><span class="kr-badge">PL / EN</span></div>
   </a>
 </div>
