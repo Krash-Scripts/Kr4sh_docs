@@ -56,6 +56,11 @@ features:
       <p>Telefon, aplikacje i integracje.</p>
       <div class="kr-meta"><span class="kr-badge live">Flagship</span></div>
     </a>
+    <a class="kr-card" href="./resources/k_backfire">
+      <h3>KR4SH Backfire</h3>
+      <p>Tablet tuningu, efekty wydechu, dźwięki silnika i pełna instrukcja instalacji.</p>
+      <div class="kr-meta"><span class="kr-badge live">Docs v1.8.1</span><span class="kr-badge">FREE</span></div>
+    </a>
   </div>
 </RevealOnScroll>
 
